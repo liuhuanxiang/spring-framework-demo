@@ -3,7 +3,6 @@ package com.hx.springframework.beans.factory.support;
 import com.hx.springframework.beans.factory.BeanFactory;
 import com.hx.springframework.beans.BeansException;
 import com.hx.springframework.beans.factory.config.BeanDefinition;
-import com.hx.springframework.beans.factory.config.DefaultSingletonBeanRegistry;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 	

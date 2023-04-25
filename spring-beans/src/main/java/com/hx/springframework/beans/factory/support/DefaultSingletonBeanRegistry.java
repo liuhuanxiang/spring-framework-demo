@@ -1,12 +1,13 @@
-package com.hx.springframework.beans.factory.config;
+package com.hx.springframework.beans.factory.support;
+
+import com.hx.springframework.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry{
+public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 	
 	private Map<String, Object> singletonObjects = new HashMap<>();
-	
 	
 	@Override
 	public Object getSingleton(String beanName) {

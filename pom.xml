@@ -11,8 +11,6 @@
     <modules>
         <module>spring-beans</module>
         <module>spring-core</module>
-        <module>spring-beans-demo</module>
-        <module>step-03</module>
     </modules>
     
     <properties>

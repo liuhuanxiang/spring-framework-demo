@@ -1,7 +1,5 @@
 package com.hx.springframework.test;
 
-import com.hx.springframework.beans.factory.config.BeanDefinition;
-import com.hx.springframework.beans.factory.support.DefaultListableBeanFactory;
 import com.hx.springframework.test.bean.UserService;
 import org.junit.jupiter.api.Test;
 
